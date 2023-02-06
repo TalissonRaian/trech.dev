@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   cursor: context-menu;
    width: 100%;
-   height: 100vh;
+   height: 100vh; 
 }
 .text__web{
     color: #e94d23;
@@ -120,6 +120,7 @@ details{
      .home_page{
       background-size: 50%;
       height: 100vh;
+      padding-bottom: 200px;
       
     }
       .text__web{
