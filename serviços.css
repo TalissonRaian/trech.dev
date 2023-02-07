@@ -74,5 +74,6 @@ p{
     }
     .a, .b, .c, .d{
         color:#e94e23;
+        backdrop-filter: none;
     }
 }

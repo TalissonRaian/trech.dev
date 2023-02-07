@@ -114,6 +114,7 @@ details{
 }
 .text__details{ 
   position: relative;
+  margin: 30px;
 } 
 }
 @media screen and (min-width: 700px){
