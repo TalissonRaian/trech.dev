@@ -33,7 +33,6 @@ body{
     background-image: url(img/pay.png);
 }
 .a, .b, .c, .d{
-    padding-left: 100px;
     justify-content: center;
     align-items: center;
     width: 250px;
@@ -75,5 +74,6 @@ p{
     .a, .b, .c, .d{
         color:#e94e23;
         backdrop-filter: none;
+        padding: 50px;
     }
 }
