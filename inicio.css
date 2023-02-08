@@ -11,7 +11,7 @@
 .text__web{
     color: #e94d23;
     top: 200px;  
-    text-shadow: 2px 2px 2px #0036ff;
+    text-shadow: 1px 1px 1px #0036ff;
 }
 .text__list{
     align-items: center;
@@ -83,7 +83,6 @@ details{
   .text__web{
     display: inline-block;
     padding: 10px;
-    backdrop-filter: blur(0.9px);
   }
   .text__apresentacao{
     font-size: 20px;

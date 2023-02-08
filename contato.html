@@ -29,24 +29,28 @@
     </header>
 
     <main class="contato">
-                 <form action="Contato" class="formulario">
+                 <form action="https://formsubmit.co/raiangiogian@gmail.com" method="POST" class="formulario">
                         <h2><img src="img/faleconosco.png" alt="" class="icon_menu">Fale Conosco</h2>
                         <label for="" class="label_area">Nome</label>
-                        <input type="text" class="input_area" placeholder="Seu Nome">
+                        <input type="name" name="Nome" class="input_area" placeholder="Seu Nome">
                         <label for="" class="label_area">WhatsApp</label>
-                        <input type="tel" class="input_area" required="required" placeholder="(DD) XXXXX-XXXX">
+                        <input type="WhatsApp" name="WhatsApp" class="input_area" required="required" placeholder="(DD) XXXXX-XXXX">
                         <label for="" class="label_area">E-mail</label>
-                        <input type="text" class="input_area" placeholder="seuemail@aqui.com">
+                        <input type="email" name="email" class="input_area" placeholder="seuemail@aqui.com">
+                        <input type="hidden" name="_autoresponse" value="E-mail Recebido, em breve entramos  em contato!">
                         <div class="check_contato">
                             <label for="">Sua Mensagem</label>
-                            <textarea name="" id="" cols="auto" rows="8" ></textarea>
+                            <textarea type="Mensagem" name="Mensagem" id="" cols="auto" rows="8" ></textarea>
                             <p>Como prefere que entre em contato?</p>
-                            <input type="checkbox" class="checkbox">
+                            <input type="checkbox" name="Contato WhatsApp" class="checkbox">
                             <label for="">WhatsApp</label>
-                            <input type="checkbox" class="checkbox">
+                            <input type="checkbox" name="Contato Email" class="checkbox">
                             <label for="">E-mail</label>
+                            <input type="hidden" name="_subject" value="Novo envio!">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato.html">
+                            <input type="hidden" name="_captcha" value="false">
                         </div>
-                        <button class="btn" onclick="msg()">ENVIAR</button>
+                        <button class="btn">ENVIAR</button>
                  </form>
     </main>
     <footer class="rodape">
