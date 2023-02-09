@@ -11,7 +11,6 @@
 .text__web{
     color: #e94d23;
     top: 200px;  
-    text-shadow: 1px 1px 1px #0036ff;
 }
 .text__list{
     align-items: center;
@@ -72,6 +71,9 @@ details{
   margin: 0 10px;
   width: 20px;
 }
+.wpp{
+  float: right;
+}
 @media screen and (min-width: 0){
   .home_page{
     background-size: 100%;
@@ -83,6 +85,7 @@ details{
   .text__web{
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 1px #0036ff;
   }
   .text__apresentacao{
     font-size: 20px;
@@ -128,6 +131,7 @@ details{
         flex-direction: column;
         padding: 0 100px;
         position: left;
+        text-shadow: 1px 1px 1px #0036ff;
       }
       .text__apresentacao{
         font-size: 40px;
